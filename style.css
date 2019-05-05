@@ -1,0 +1,141 @@
+
+body {
+   
+       background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/scale-87466625.jpg);
+     
+      
+    
+}
+
+
+.app_name_container {
+    
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 60%;
+    background-color: #e67e22;
+    margin-bottom: 0px;
+    border: 5px solid #e67e22;
+   
+    
+}
+
+.logo {
+    
+  height: 30px;
+  width: 40px;
+  vertical-align:middle;
+
+}
+
+
+.app_name_container h1 {
+    
+    font-size: 20px;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    font-weight:400;
+    color: black;
+    display: inline-block;
+    vertical-align:middle;
+
+}
+
+
+.main_container {
+ 
+ display: block;  
+ border: 5px solid #e67e22;
+ margin: auto;
+ width:60%;
+ height: 500px;
+ margin-top: 0px;
+ background-color: white;
+ 
+
+ 
+
+}
+
+
+
+.conversion_app_container {
+
+  margin: auto;
+  width: 50%;
+  margin-top: 40px;
+
+}
+
+
+.label_container {
+    
+   margin: auto;
+   width: 100%;
+   margin-top: 50px;
+   text-align: center;
+   margin-bottom: 10px;
+  
+   
+}
+
+
+label {
+    
+    font-size: 15px;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    font-weight:400;
+    color: black;
+   
+   
+}
+
+.type_selection {
+    
+    width: 100%;
+    height: 35px;
+    border-radius: 0px;
+    background-color: #e67e22;
+    
+
+}
+
+
+.textbox {
+    
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    height: 30px;
+    width: 50%;
+    border: 1px solid #e67e22;
+ 
+    
+}
+
+
+
+
+
+.result_container {
+
+    margin: auto;
+    width: 50%;
+    margin-top: 35px;
+    
+}
+
+.result_container h4 {
+    
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #e67e22;
+    height: 30px;
+    color: white;
+    
+}
+
+

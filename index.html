@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+      <title>WEIGHT CONVERTER</title>
+      <link type="text/css" rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body>
+
+        
+        <div class="page_container">
+
+            
+            <div class="app_name_container">
+                <ion-icon class="logo" name="speedometer"></ion-icon>
+                <h1>Converter</h1>
+            </div>
+            
+            
+            
+            <div class="main_container">
+
+                
+                <div class="conversion_app_container">
+                
+                    <div class="label_container">
+                        <label>CONVERT</label>
+                    </div>
+                    
+                    <select id="conversion_type_selection" class="type_selection">
+                        <option value="length">length</option>
+                        <option value="speed">speed</option>
+                        <option value="mass">mass</option>
+                    </select>
+           
+                    
+                    <div class="label_container">
+                        <label>FROM</label>
+                    </div>
+                    
+                    
+                
+                    <select id="input_unit" class="type_selection" name="units">
+                        <option value="foot">foot</option>
+                        <option value="mile">mile</option>
+                        <option value="inch">inch</option>
+                        <option value="yard">yard</option>
+                    </select>
+                    
+                    
+                    <input type="text" class="textbox" id="user_input">
+                 
+                
+
+                    <div class="label_container label_container_two">
+                        <label>TO</label>
+                    </div>
+                    
+                    
+                 
+                    <select id="output_unit" class="type_selection" name="units">
+                        <option value="foot">foot</option>
+                        <option value="mile">mile</option>
+                        <option value="inch">inch</option>
+                        <option value="yard">yard</option>
+                    </select> 
+                
+                  
+                
+                    
+                    <div class="result_container">
+                        <h4 id="result"></h4>
+                    </div>
+                    
+            
+             </div>
+            </div>
+        </div>
+        
+        
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+        
+        
+    </body>
+        
+        <script type="text/javascript" src="JS/unit_converter.js"></script>
+
+</html>
